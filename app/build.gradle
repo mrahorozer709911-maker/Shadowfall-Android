@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.shadowfall.mobile'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.shadowfall.mobile'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '0.1.0'
+    }
+}
